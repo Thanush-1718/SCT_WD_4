@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>📝 To-Do Web App</h1>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Enter task title..." required>
+            <textarea id="descInput" placeholder="Optional description" rows="3"></textarea>
+            <input type="datetime-local" id="timeInput">
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
